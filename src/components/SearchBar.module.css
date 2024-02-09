@@ -1,0 +1,9 @@
+.container {
+  padding-bottom: 15px;
+}
+
+.search {
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  height: 32px;
+}
