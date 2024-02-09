@@ -1,0 +1,17 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 20px 30px;
+}
+
+.back {
+  position: absolute;
+  left: 30px;
+  top: 20px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 18px;
+}
