@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 7px;
+  border-top: 1px solid var(--border);
+}
+
+.container:first-child {
+  border-top: none;
+}
+
+.container-large {
+  height: 100px;
+}
+
+.container h3 {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.container p {
+  font-size: 14px;
+  color: var(--secondary-text);
+}
+
+.container img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background-color: #f0f1f1;
+  border: 1px solid #ddd;
+}
+
+.container-large img {
+  height: 80px;
+  width: 80px;
+}
