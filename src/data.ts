@@ -76,7 +76,7 @@ const wade = new Employee({
   img: "imgs/wade.png",
   officePhone: "781-000-9347",
   mobilePhone: "617-000-9347",
-  email: "paul@company.com",
+  email: "wade@company.com",
 });
 
 export const allEmployees = [kim, ron, monique, shego, rufus, wade];
