@@ -7,8 +7,9 @@
 
 .back {
   position: absolute;
-  left: 30px;
+  left: 10px;
   top: 20px;
+  width: fit-content;
 }
 
 h2 {

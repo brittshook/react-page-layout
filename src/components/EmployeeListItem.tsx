@@ -19,7 +19,7 @@ export const EmployeeListItem = ({
     <div
       data-bind={name}
       className={`${styles.container} ${
-        size === "large" && styles["container-large"]
+        size === "large" ? styles["container-large"] : ""
       }`}
       onClick={onClick}
     >

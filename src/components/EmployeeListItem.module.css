@@ -14,6 +14,7 @@
 
 .container-large {
   height: 100px;
+  cursor: default;
 }
 
 .container h3 {
