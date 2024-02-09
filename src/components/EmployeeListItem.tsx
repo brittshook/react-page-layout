@@ -17,8 +17,8 @@ export const EmployeeListItem = ({
 }: Props) => {
   return (
     <div
-      id={name}
-      className={`has-click-event ${styles.container} ${
+      data-bind={name}
+      className={`${styles.container} ${
         size === "large" && styles["container-large"]
       }`}
       onClick={onClick}

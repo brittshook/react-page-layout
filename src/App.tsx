@@ -12,7 +12,7 @@ function App() {
   const handleEmployeeClick = (
     event: React.MouseEvent<HTMLDivElement, MouseEvent>
   ) => {
-    const employeeName = event.currentTarget.id;
+    const employeeName = event.currentTarget.getAttribute('data-bind');
     let selectedEmployee;
     for (const employee of allEmployees) {
       if (employee.name === employeeName) {
