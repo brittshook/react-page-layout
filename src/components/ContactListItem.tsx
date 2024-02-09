@@ -7,7 +7,7 @@ type Props = {
 
 export const ContactListItem = ({ title, contactInfo }: Props) => {
   return (
-    <div className={`has-click-event ${styles.container}`}>
+    <div className={styles.container}>
       <div>
         <h3>{title}</h3>
         <p>{contactInfo}</p>
