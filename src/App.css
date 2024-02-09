@@ -1,0 +1,12 @@
+#app {
+  display: flex;
+}
+
+button,
+.has-click-event {
+  cursor: pointer;
+}
+
+button {
+  background-color: var(--background-color);
+}
